@@ -1,8 +1,19 @@
-kaggle.json
-.kaggle/
-data/raw/
-outputs/checkpoints/
-__pycache__/
+# kaggle.json
+# .kaggle/
+# data/raw/
+# outputs/checkpoints/
+# __pycache__/
+# *.zip
+# *.pyc
+# .ipynb_checkpoints/
+
+@"
+data/
+notebooks/
+outputs/
+*.pth
 *.zip
+__pycache__/
 *.pyc
 .ipynb_checkpoints/
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
