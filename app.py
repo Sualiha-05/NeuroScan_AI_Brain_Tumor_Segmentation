@@ -313,8 +313,7 @@ def download_model():
                 gdown.download(
                     id=GDRIVE_FILE_ID,
                     output=CHECKPOINT_PATH,
-                    quiet=False,
-                    fuzzy=True
+                    quiet=False
                 )
         except Exception as e:
             st.error(f"❌ Download failed: {e}")
