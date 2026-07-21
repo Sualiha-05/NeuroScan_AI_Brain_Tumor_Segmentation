@@ -302,7 +302,7 @@ html, body, .stApp {
 # Constants
 # ─────────────────────────────────────────
 CHECKPOINT_PATH = os.path.join("outputs", "checkpoints", "best_model.pth")
-GDRIVE_FILE_ID  = "https://drive.google.com/file/d/1QLTSBCglNn9qhFE5NaQ3Vj5R_Yn-mBPr/view?usp=drive_link"
+GDRIVE_FILE_ID  = "1QLTSBCglNn9qhFE5NaQ3Vj5R_Yn-mBPr"
 IMG_SIZE = 128
 
 def download_model():
